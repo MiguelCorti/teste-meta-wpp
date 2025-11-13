@@ -1,0 +1,24 @@
+{
+  "name": "teste-meta-wpp",
+  "version": "1.0.0",
+  "description": "app para receber webhooks de teste da meta/wpp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "webhook",
+    "meta",
+    "facebook"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "axios": "^1.6.0",
+    "request": "^2.88.2"
+  }
+}
